@@ -1,0 +1,64 @@
+.jumbotron{
+	background-color: transparent;
+	font-family: times;
+}
+
+body{
+	height: auto;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, teal, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, teal, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, teal, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, teal, white); /* Standard syntax (must be last) */
+}
+
+.container-static{
+	font-size: 18px;
+	color: teal;
+	font-family: times;
+}
+
+#jumbo1{
+	font-family: times;
+}
+
+#frame {
+    width: 800px;
+    height: 520px;
+    border: none;
+    -moz-transform: scale(0.2);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.2);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.2);
+    -webkit-transform-origin: 0 0;
+}
+
+.img-circle{
+	padding-right: 100px;
+}
+
+#form{
+	text-align: center;
+	font-family: times;
+}
+
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
